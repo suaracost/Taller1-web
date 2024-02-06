@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller 1</title>
+    <meta name="author" content="Alejandro Suarez" />
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poor+Story|Teko|Abel"/>
+  </head>
+
+  <body>
+    <!-- EL header con titulo mi nombre y links a otras paginas-->
+    <header class="header">
+      <div class="titulo">
+        <h1>Taller 1</h1>
+        <p>Alejandro Suárez</p>
+      </div>
+      <nav class="paginas">
+        <a href="index.html">Bienvenida</a>
+        <a href="datos.html">Datos Biográficos</a>
+        <a href="hoja.html" class="actual">Hoja de vida</a>
+        <a href="material.html">Material de interés</a>
+        <a href="formulario.html">Formulario</a>
+      </nav>
+    </header>
+
+    <!-- Para que no haya nada debajo del header -->
+    <div class="antiblock">
+      <p>para que no quede nada debajo del header</p>
+    </div>
+
+    <!-- Contenido-->
+    <section class="contenidoHoja">
+      <div class="indice">
+        <a href="#estudio">Estudios</a>
+        <a href="#experiencia">Experiencia laboral</a>
+        <a href="#premio">Premios</a>
+        <a href="#creaciones">Produccion intelectual</a>
+      </div>
+
+      <h3>Hoja de vida</h3>
+
+      <section class="estudios fondo">
+        <h4 id="estudio">Estudios</h4>
+        <ol>
+          <li>
+            <p class="negrita">Primaria</p>
+            <ul>
+              <li>
+                <p>Stockholm International School (Estocolmo, Suecia)</p>
+              </li>
+              <li>
+                <p>San Ignacio de Loyola: (Caracas, Venezuela)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p class="negrita">Escuela media</p>
+            <ul>
+              <li>
+                <p>Rochester School (Bogotá, Colombia)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p class="negrita">Escuela alta</p>
+            <ul>
+              <li>
+                <p>Rochester School (Bogotá, Colombia)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p class="negrita">Universidad</p>
+            <ul>
+              <li>
+                <p>Pontificia Universidad Javeriana (Bogotá, Colombia)</p>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section class="experiencias lista fondo">
+        <h4 id="experiencia">Experiencia laboral</h4>
+        <ul>
+          <li>
+            <p>
+              Monitor programación avanzada en la universidad Javeriana
+              (Semestre 2310)
+            </p>
+          </li>
+          <li>
+            <p>
+              Monitor administrativo ingeniería de sistemas de la universidad
+              Javeriana (Semestre 2310)
+            </p>
+          </li>
+          <li>
+            <p>QA engineer en Tabella (Septiembre 2023 - actualidad)</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="premios lista fondo">
+        <h4 id="premio">Premios</h4>
+        <ul>
+          <li>
+            <p>
+              Medalla de bronce en la olimpiada matemática del municipio de
+              Chacao 2016 (Caracas, Venezuela)
+            </p>
+          </li>
+          <li>
+            <p>
+              Mejor delegado del comité WHO en RMUN 2017 (Rochester Model of
+              United Nations)
+            </p>
+          </li>
+          <li>
+            <p>
+              Delegado sobresaliente del comité de crisis de la OTAN en RMUN
+              2018 (Rochester Model of United Nations)
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="produccion lista fondo">
+        <h4 id="creaciones">Produccion intelectual</h4>
+        <ul>
+          <li>
+            <p>Proyecto "Just Risk It" - Estructuras de datos</p>
+            <a href="https://github.com/suaracost/Just-Risk-It" target="_blank">
+              Repo de github</a>
+          </li>
+          <li>
+            <p>Proyecto "Pawlished" - Computaión móvil</p>
+            <a href="https://github.com/suaracost/Pawlished-Final" target="_blank">
+              Repo de github</a>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <!--Footer con link a mi github-->
+    <footer class="footer" id="foothoja">
+      <pre>Para ver más de mis trabajos puedes ir a mi Github, dandole click </pre>
+      <a href="https://github.com/suaracost" target="_blank">aqui</a>
+    </footer>
+  </body>
+</html>

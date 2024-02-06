@@ -1,0 +1,537 @@
+/* Formato de algunas cosas por default */
+
+html {
+    zoom: 200%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Poor Story";
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+}
+
+a {
+    font-family: teko;
+    font-weight: lighter;
+    font-size: small;
+}
+
+p {
+    font-family: "Abel";
+    color: black;
+}
+
+li {
+    font-family: "Abel";
+    font-size: small;
+}
+
+body, html {
+    scroll-padding-top: 110px;
+}
+
+body {
+    position: relative;
+    min-height: 50vh;
+    padding-bottom: 35px;
+}
+
+/* Formato del header */
+
+.header{
+    background-color: #1d3296;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+.titulo {
+    margin-left: 20px;
+}
+
+.titulo h1 {
+    color: white;
+}
+
+.titulo p {
+    font-size: small;
+    color: white;
+    padding-bottom: 6px;
+}
+
+.paginas {
+    margin-right: 20px;
+}
+
+.paginas a {
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+}
+
+.paginas a:hover {
+    background-color: lightblue;
+    color:#1d3296;
+    transition: all 0.3s;
+}
+
+a.actual {
+    color: #ade6bb;
+}
+
+a.actual:hover {
+    color: #1d3296;
+    transition: all 0.3s;
+}
+
+.antiblock {
+    height: 70px;
+}
+
+/* Formato del footer */
+
+.footer {
+    background-color: #1d3296;
+    height: 25px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer pre {
+    font-family: abel;
+    font-size:x-small;
+    margin-left: 10px;
+    color: white;
+}
+
+.footer a {
+    font-family: abel;
+    font-size:x-small;
+    color: lightblue;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
+.footer a:hover {
+    color: #1d3296;
+    background-color: lightblue;
+    transition: all 0.3s;
+}
+
+/* Formato de la pagina de bienvenida */
+
+.contenidoBienvenida {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenidoBienvenida  h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contenidoBienvenida  p {
+    font-size: x-small;
+    text-align: justify;
+}
+
+.contenidoBienvenida  img {
+    height: 100px;
+    float: left;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+
+/* Formato de la pagina de hoja de vida */
+
+.contenidoHoja {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenidoHoja  h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.contenidoHoja p {
+    color: white;
+}
+
+.contenidoHoja h4 {
+    color: lightblue;
+}
+
+.indice {
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.indice span {
+    font-family: "Abel";
+    font-size: small;
+    font-weight: bold;
+}
+
+.indice a {
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+}
+
+.indice a:hover {
+    background-color: lightblue;
+    transition: all 0.3s;
+}
+
+.fondo {
+    border: 1px solid black;
+    padding: 10px;
+    background-image: linear-gradient(to right, #1d3296, #1d6f96);
+    border-radius: 8px;
+}
+
+.estudios ol {
+    color: lightblue;
+}
+
+p.negrita {
+    font-weight: bold;
+}
+
+.estudios ul {
+    margin-left: -20px;
+}
+
+.lista {
+    margin-top: 10px;
+}
+
+.experiencias ul {
+    color: lightblue;
+}
+
+.premios ul {
+    color: lightblue;
+}
+
+.produccion ul {
+    color: lightblue;
+}
+
+.produccion a {
+    color: #ade6bb;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+}
+
+.produccion a:hover {
+    color: #1d3296;
+    background-color: lightblue;
+    transition: all 0.3s;
+}
+
+/* Formato de la pagina de datos biográficos */
+
+.contenidoDatos {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenidoDatos  h3 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.tablas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delimita {
+    margin-top: 10px;
+}
+
+.col1 {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.col2 {
+    width: 100%;
+    margin-left: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.tabla {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.tabla th {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: small;
+    font-weight: bold;
+    background-color: #1d3296;
+}
+
+.tituloTabla {
+    color: white;
+}
+
+.tabla td {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: small;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: white;
+}
+
+.tabla tr:nth-child(odd) {
+    background-color: #ade6bb;
+}
+
+/* Formato de la pagina de material de interes */
+
+.contenidoMaterial {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenidoMaterial  h3, .contenidoMaterial h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.caja {
+    padding: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abajo {
+    margin-bottom: 10px;
+}
+
+#spoti {
+    height: 400px;
+}
+
+.bloque {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.diferente {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.fotos {
+    height: 100px;
+    width: 66px;
+    margin-left: 5px;
+}
+
+.deportes {
+    object-fit: cover;
+}
+
+.enlace {
+    color: black;
+    font-size: x-small;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+}
+
+.enlace:hover {
+    background-color: lightblue;
+    transition: all 0.3s;
+}
+
+/* Formato de la pagina de formulario */
+
+.contenidoForm {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenidoForm  h3 {
+    text-align: center;
+}
+
+form {
+    margin-top: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    height: 18px;
+    width: 100%;
+}
+
+.respuesta {
+    width: 15%;
+}
+
+.contenidoForm label{
+    font-family: "Abel";
+    font-size: small;
+    font-weight: bold;
+}
+
+.contenidoForm input {
+    font-family: "Abel";
+    font-size: x-small;
+    height: 18px;
+    width: 60%;
+}
+
+.contenidoForm button {
+    font-family: "Abel";
+    font-size: x-small;
+}
+
+.contenidoForm h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.datosAlmacenados {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.datosAlmacenados th {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 5px;
+    font-size: x-small;
+    font-weight: bold;
+    background-color: #1d3296;
+}
+
+.datosAlmacenados td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 5px;
+    font-size: x-small;
+}
+
+.celdaBoton {
+    min-width: 80px;
+}
+
+.celdaOtras {
+    min-width: 60px;
+}
+
+.tablaUsers {
+    font-size: x-small;
+    color: black;
+}
+
+a.tablaUsers {
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
+button.tablaUsers  {
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+a.tablaUsers:hover {
+    background-color: lightblue;
+    transition: all 0.3s;
+}
+
+td.centrarBoton {
+    text-align: center;
+}
+
+.limpieza {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#clean {
+    font-size: xx-small;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.pets {
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.pets h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.pets p {
+    font-size: x-small;
+    margin-left: 5px;
+}
+
+.pets li {
+    font-size: x-small;
+    margin-left: -15px;
+}

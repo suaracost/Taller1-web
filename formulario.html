@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taller 1</title>
+    <meta name="author" content="Alejandro Suarez" />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poor+Story|Teko|Abel"
+    />
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <!-- EL header con titulo mi nombre y links a otras paginas-->
+    <header class="header">
+      <div class="titulo">
+        <h1>Taller 1</h1>
+        <p>Alejandro Suárez</p>
+      </div>
+      <nav class="paginas">
+        <a href="index.html">Bienvenida</a>
+        <a href="datos.html">Datos Biográficos</a>
+        <a href="hoja.html">Hoja de vida</a>
+        <a href="material.html">Material de interés</a>
+        <a href="formulario.html" class="actual">Formulario</a>
+      </nav>
+    </header>
+
+    <!-- Para que no haya nada debajo del header -->
+    <div class="antiblock">
+      <p>para que no quede nada debajo del header</p>
+    </div>
+
+    <!-- Contenido-->
+    <section class="contenidoForm">
+      <h3>Formulario</h3>
+
+      <form method="post" id="form">
+        <div class="container">
+          <div class="respuesta">
+            <label for="username">Username</label>
+          </div>
+          <input type="text" id="username" name="username" required />
+        </div>
+
+        <div class="container">
+          <div class="respuesta">
+            <label for="nombre">Nombre</label>
+          </div>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+
+        <div class="container">
+          <div class="respuesta">
+            <label for="imagen">Imagen</label>
+          </div>
+          <input type="url" id="imagen" name="imagen" required />
+        </div>
+
+        <div class="container">
+          <div class="respuesta">
+            <label for="mascota">Mascota</label>
+          </div>
+          <input type="text" id="mascota" name="mascota" required />
+        </div>
+
+        <div class="container">
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+
+      <section class="hide">
+        <h3>Datos almacenados</h3>
+
+        <h4>Amigos</h4>
+        <table class="datosAlmacenados">
+          <thead>
+            <tr>
+              <th>
+                <p class="tituloTabla">Username</p>
+              </th>
+              <th>
+                <p class="tituloTabla">Nombre</p>
+              </th>
+              <th>
+                <p class="tituloTabla">Imagen</p>
+              </th>
+              <th>
+                <p class="tituloTabla">Mascotas</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- Aqui van los datos del form -->
+            </tr>
+          </tbody>
+        </table>
+        <div class="limpieza">
+          <button id="clean">Limpiar Filtros</button>
+        </div>
+      </section>
+
+      <div class="pets">
+        <h4 id="tituloPets"></h4>
+        <p id="ownerUser"></p>
+        <ul id="petsUser">
+          <!-- Aqui van los datos de las mascotas del usuario -->
+        </ul>
+      </div>
+    </section>
+
+    <!--Footer con link a mi github-->
+    <footer class="footer">
+      <pre>
+Para ver más de mis trabajos puedes ir a mi Github, dandole click </pre
+      >
+      <a href="https://github.com/suaracost" target="_blank">aqui</a>
+    </footer>
+  </body>
+</html>
